@@ -7,10 +7,10 @@ import numpy as np
 st.set_page_config(page_title="🏢 Apartment Recommender", layout="wide")
 
 # Load data
-location_df = pickle.load(open('datasets/location_distance.pkl', 'rb'))
-cosine_sim1 = pickle.load(open('datasets/cosine_sim1.pkl', 'rb'))
-cosine_sim2 = pickle.load(open('datasets/cosine_sim2.pkl', 'rb'))
-cosine_sim3 = pickle.load(open('datasets/cosine_sim3.pkl', 'rb'))
+location_df = pickle.load(open('8. Streamlit File/datasets/location_distance.pkl', 'rb'))
+cosine_sim1 = pickle.load(open('8. Streamlit File/datasets/cosine_sim1.pkl', 'rb'))
+cosine_sim2 = pickle.load(open('8. Streamlit File/datasets/cosine_sim2.pkl', 'rb'))
+cosine_sim3 = pickle.load(open('8. Streamlit File/datasets/cosine_sim3.pkl', 'rb'))
 
 # Title and description
 st.title("🏙️ Smart Apartment Recommender")
