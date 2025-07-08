@@ -26,7 +26,7 @@ Unlock the power of data to make smarter property decisions in Gurugram. Whether
 # IMPORTANT: For self-contained code in this environment, local image paths like "Cyber_City_View.jpg"
 # cannot be directly accessed. Reverting to a reliable external URL for demonstration purposes.
 # If you wish to use a local image, ensure it's uploaded to your Streamlit app's deployment environment.
-st.image("Cyber_City_View.jpg", caption="Gurugram's Dynamic Real Estate Landscape", use_container_width=True)
+st.image("images/Cyber_City_View.jpg", caption="Gurugram's Dynamic Real Estate Landscape", use_container_width=True)
 
 
 st.write("---") # Separator for better visual flow
