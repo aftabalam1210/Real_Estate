@@ -10,8 +10,8 @@ st.set_page_config(page_title="Plotting Demo")
 
 st.title('Analytics')
 
-new_df = pd.read_csv('datasets/data_viz1.csv')
-feature_text = pickle.load(open('datasets/feature_text.pkl', 'rb'))
+new_df = pd.read_csv('8. Streamlit File/datasets/data_viz1.csv')
+feature_text = pickle.load(open('8. Streamlit File/datasets/feature_text.pkl', 'rb'))
 
 # Ensure numeric columns
 cols_to_convert = ['price', 'price_per_sqft', 'built_up_area', 'latitude', 'longitude']
@@ -31,7 +31,7 @@ st.plotly_chart(fig, use_container_width=True)
 st.header('Features Wordcloud (Based on Sector)')
 
 # Load pre-aggregated sector_features.csv
-sector_features_df = pd.read_csv('datasets/sector_features.csv')
+sector_features_df = pd.read_csv('8. Streamlit File/datasets/sector_features.csv')
 
 # Sector selection dropdown
 wordcloud_sector_options = sector_features_df['sector'].unique().tolist()
